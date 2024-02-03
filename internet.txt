@@ -1,0 +1,17 @@
+1. The Internet:
+- The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+
+2. Wires, Cables, and Wi-Fi:
+- Information on the Internet moves from one computer to another in the form of bits over various mediums, including Ethernet cables, fiber optic cables, and wireless signals (i.e., radio waves).
+
+3. IP Addresses and DNS:
+- IP addresses are unique numerical labels assigned to devices connected to a network, facilitating communication and routing data packets across the internet. They come in two main formats: IPv4 and IPv6.
+
+The Domain Name System (DNS) translates human-readable domain names (e.g., www.example.com) into IP addresses and vice versa. DNS operates through a distributed network of servers and enables users to access resources using domain names instead of numerical IP addresses.
+
+Together, IP addresses and DNS form the backbone of internet communication, allowing users to connect to websites, send emails, and access various online resources seamlessly.
+
+4. Packets, Routing, and Reliability
+- Information transfer on the Internet from one computer to another does not need to follow a fixed path; in fact, it may change paths during the transfer. This information transfer is done in the form of packets and these packets may follow different routes depending on certain factors.
+
+Packets are units of data transmitted over networks, routing determines the paths packets take between source and destination, and reliability mechanisms ensure accurate and efficient delivery of packets, contributing to the overall performance and effectiveness of computer networks.

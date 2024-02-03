@@ -1,0 +1,50 @@
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. It defines how messages are formatted and transmitted, and actions are performed between web servers and clients (such as web browsers). Here's a summary of HTTP, HTTP methods, requests, responses, and status codes:
+
+1. HTTP (Hypertext Transfer Protocol):
+
+- HTTP is a protocol used for transferring hypertext requests and data on the internet.
+- It operates as a request-response protocol in the client-server computing model.
+- HTTP is stateless, meaning each request from a client to a server is independent and unrelated to any previous requests.
+- It typically uses TCP/IP as the underlying transport protocol, running on port 80 by default for HTTP and port 443 for HTTPS (HTTP over TLS/SSL).
+
+2. HTTP Methods:
+
+- HTTP defines various methods that indicate the desired action to be performed on a resource.
+- Common HTTP methods include:
+     - GET: Requests data from a specified resource.
+     - POST: Submits data to be processed to a specified resource.
+     - PUT: Updates a resource or creates a new resource if it doesn't exist.
+     - DELETE: Deletes the specified resource.
+     - PATCH: Partially updates a resource.
+     - OPTIONS: Returns the supported HTTP methods for a resource.
+
+3. HTTP Request:
+
+- An HTTP request is a message sent by a client (such as a web browser) to request a particular action from a server.
+- It consists of:
+    - A request line specifying the method, URI, and HTTP version.
+    - Request headers providing additional information about the request.
+    - An optional message body containing data (e.g., form data, JSON payload).
+
+4. HTTP Response:
+
+- An HTTP response is a message sent by a server to the client in response to an HTTP request.
+- It consists of:
+     - A status line indicating the HTTP version, status code, and reason phrase.
+     - Response headers providing additional information about the response.
+     - An optional message body containing data (e.g., HTML content, JSON data).
+5. HTTP Status Code:
+
+- HTTP status codes indicate the result of a client's request to the server.
+- Status codes are grouped into different classes (e.g., 1xx for informational, 2xx for success, 3xx for redirection, 4xx for client errors, and 5xx for server errors).
+- Common status codes include:
+     - 200 OK: The request was successful.
+     - 404 Not Found: The requested resource was not found.
+     - 500 Internal Server Error: The server encountered an unexpected condition.
+
+In summary, HTTP facilitates communication between clients and servers on the web through requests and responses, using methods to specify actions and status codes to indicate the outcome of those actions.
+
+
+
+
+
